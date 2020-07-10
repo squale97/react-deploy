@@ -1,6 +1,8 @@
 import React ,{Component} from 'react'
 import {Grid, Cell} from 'react-mdl'
 import Education from './education'
+import Experience from './experience'
+import Skills from './skills'
 
 class Resume extends Component {
     render() {
@@ -32,7 +34,95 @@ class Resume extends Component {
                         <h2>Education</h2>
                         <Education
                         startYear={2015}
+                        endYear={ 2016}
+                        schoolName="Université Djilila Bounaama de Khemis Miliana"
+                        schoolDescription="fault model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+                        "
+
                         />
+
+
+<Education
+                        startYear={2016}
+                        endYear={ 2015}
+                        schoolName="Université Djilila Bounaama de Khemis Miliana"
+                        schoolDescription="fault model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+                        "
+
+                        />
+
+<Education
+                        startYear={2017}
+                        endYear={ 2018}
+                        schoolName="Université Djilila Bounaama de Khemis Miliana"
+                        schoolDescription="fault model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+                        "
+
+                        />
+
+<Education
+                        startYear={2018}
+                        endYear={ 2019}
+                        schoolName="Université Djilila Bounaama de Khemis Miliana"
+                        schoolDescription="fault model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+                        "
+
+                        />
+
+<Education
+                        startYear={2019}
+                        endYear={ 2020}
+                        schoolName="Université Djilila Bounaama de Khemis Miliana"
+                        schoolDescription="fault model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+                        "
+
+                        />
+                        <hr style={{border:'3px solid #e22947'}}></hr>
+
+                        
+                        <h2>Experience</h2>
+                         <Experience
+                         startYear={2017}
+                         endYear={2018}
+                         jobName="My job"
+                         jobDescription="fault model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+                         "/>
+
+
+
+<Experience
+                         startYear={2020}
+                         endYear={2020}
+                         jobName="My job"
+                         jobDescription="fault model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+                         "/>
+
+
+
+                           <hr style={{border:'3px solid #e22947'}}></hr>
+                         <h2>Skills</h2>
+                     <Skills
+                     skill ="Python"
+                     progress={100}/> 
+
+                     <Skills
+                     skill ="Java"
+                     progress={80}/>
+
+                     <Skills
+                     skill ="Javascript"
+                     progress={75}/>
+
+                     <Skills
+                     skill ="C"
+                     progress={60}/>  
                     </Cell>
                 </Grid>
             </div>

@@ -9,8 +9,8 @@ class Projects extends Component {
         }
 
       toggleCategories(){
-          {/* Project 1*/}
-        if (this.state.activeTab == 0){
+          /* Project 1*/
+        if (this.state.activeTab === 0){
             return (
                 <div className="projects-grid">
                     {/*  Project 1*/}
@@ -68,7 +68,7 @@ class Projects extends Component {
                 </div>
                 
             )
-        }else if (this.state.activeTab == 1){
+        }else if (this.state.activeTab === 1){
             return (
                 <div className="projects-grid">
                 {/*  Project 1*/}
@@ -125,7 +125,7 @@ class Projects extends Component {
             </Card>
             </div>
             )
-        }else if (this.state.activeTab == 2){
+        }else if (this.state.activeTab === 2){
             return (
                 <div className="projects-grid">
                 {/*  Project 1*/}
@@ -182,7 +182,7 @@ class Projects extends Component {
             </Card>
             </div>
             )
-      }else if (this.state.activeTab == 3){
+      }else if (this.state.activeTab === 3){
         return (
             <div className="projects-grid">
                     {/*  Project 1*/}

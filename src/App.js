@@ -13,7 +13,7 @@ class App extends Component {
     
     <Layout fixedHeader>
         
-    <Header className="header-color" title={<strong>LEKODEUR</strong>}>
+    <Header className="header-color" title={<a style={{color:'white', textDecorationLine:'none' }} href="/"><strong>LEKODEUR</strong></a>}>
     <div   id="menu" tabindex="0" class="mdl-layout__drawer-button"><i class="material-icons"></i></div>
             <Navigation >
                 
@@ -31,7 +31,7 @@ class App extends Component {
             />
             </Navigation>
         </Header>
-        <Drawer className="menu" title="LEKODEUR">
+        <Drawer className="menu" title={<a style={{textDecoration:'none', textDecorationLine:'none' }} href="/"><strong>LEKODEUR</strong></a>}>
             <Navigation className="navigation" >
             <a href="/resume"> Resume</a>
             <a href="/aboutme">About Me</a>
